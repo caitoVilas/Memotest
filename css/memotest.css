@@ -1,0 +1,56 @@
+/* RESET CSS */
+:root {
+    --main-font: system-ui;
+    --font-size: 16px;
+    --main-color: #fff;
+    --second-color: #222;
+    --main-modal-color: rgba(247,222,30,.85);
+    --second-modal-color: rgba(131, 127, 127, 0.85);
+    --container-width : 1200px;
+}
+html {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    color: var(--main-color);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cabecera{
+    background-image: url(/assets/img/COVID-Banner.jpg);
+    height: 200px;
+}
+.cabecera h2{
+    font-size: 4rem;
+}
+/* h1 {
+    text-align: center;
+    color: var(--second-color);
+} */
+.card_container{
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    /* width: 100%;
+    height: 300px; */
+}
+.carta img {
+    width: 100%px;
+    height: 170px;
+}
+.pie{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+}
